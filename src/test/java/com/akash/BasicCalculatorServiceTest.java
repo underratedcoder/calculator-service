@@ -42,6 +42,10 @@ public class BasicCalculatorServiceTest {
         assertEquals(-5, service.doDiff(10, 15));
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9b5dcea (Implemented Basic Calculator Service)
     @Test
     public void testMultiply1()
     {
@@ -55,13 +59,21 @@ public class BasicCalculatorServiceTest {
     }
 
     @Test
+<<<<<<< HEAD
     public void testDivide1()
+=======
+    public void testDiv1()
+>>>>>>> 9b5dcea (Implemented Basic Calculator Service)
     {
         assertEquals(2, service.divide(10, 5));
     }
 
     @Test
+<<<<<<< HEAD
     public void testDivide2()
+=======
+    public void testDiv2()
+>>>>>>> 9b5dcea (Implemented Basic Calculator Service)
     {
         assertEquals(3, service.divide(15, 5));
     }
